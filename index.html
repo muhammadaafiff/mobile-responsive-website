@@ -11,10 +11,34 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-bold-straight/css/uicons-bold-straight.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css"
+    />
   </head>
 
   <body>
-    <nav class="navbar bg-body-tertiary">
+    <nav class="navbar">
       <div class="container">
         <a class="navbar-brand" href="index.html">
           <img
@@ -24,15 +48,19 @@
           />
         </a>
         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-          <button class="btn" type="button">Masuk</button>
-          <button type="button" class="btn btn-outline-secondary">
-            Daftar
-          </button>
+          <a href="login-page.html"
+            ><button class="btn" type="button">Masuk</button></a
+          >
+          <a href="register-page.html"
+            ><button type="button" class="btn btn-outline-secondary">
+              Daftar
+            </button></a
+          >
         </div>
       </div>
     </nav>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <!-- <a class="navbar-brand" href="#">Navbar</a> -->
         <button
@@ -62,10 +90,20 @@
                 Belajar
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="workshop-page.html">Workshop</a></li>
-                <li><a class="dropdown-item" href="serial-page.html">Serial Edukasi</a></li>
                 <li>
-                  <a class="dropdown-item" href="pelatihan-page.html">Pelatihan Sertifikasi</a>
+                  <a class="dropdown-item" href="workshop-page.html"
+                    >Workshop</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="serial-page.html"
+                    >Serial Edukasi</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="pelatihan-page.html"
+                    >Pelatihan Sertifikasi</a
+                  >
                 </li>
               </ul>
             </li>
@@ -81,8 +119,14 @@
                 Informasi
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="artikel-page.html">Artikel</a></li>
-                <li><a class="dropdown-item" href="infografis-page.html">Infografis</a></li>
+                <li>
+                  <a class="dropdown-item" href="artikel-page.html">Artikel</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="infografis-page.html"
+                    >Infografis</a
+                  >
+                </li>
               </ul>
             </li>
 
@@ -125,11 +169,7 @@
         <div class="row">
           <div class="col-md-4">
             <div class="card">
-              <img
-                src="Img/information.png"
-                alt="Gambar Card"
-                class="card-img-top"
-              />
+              <i class="fi fi-br-info"></i>
               <div class="card-body">
                 <h5 class="card-title">Eco Change Info</h5>
                 <p class="card-text">
@@ -144,11 +184,7 @@
           </div>
           <div class="col-md-4">
             <div class="card">
-              <img
-                src="Img/place-marker.png"
-                alt="Gambar Card"
-                class="card-img-top"
-              />
+              <i class="fi fi-bs-marker"></i>
               <div class="card-body">
                 <h5 class="card-title">Peta Minim Sampah</h5>
                 <p class="card-text">
@@ -163,11 +199,7 @@
           </div>
           <div class="col-md-4">
             <div class="card">
-              <img
-                src="Img/megaphone.png"
-                alt="Gambar Card"
-                class="card-img-top"
-              />
+              <i class="fi fi-bs-megaphone"></i>
               <div class="card-body">
                 <h5 class="card-title">Program Eco Change</h5>
                 <p class="card-text">
@@ -191,7 +223,7 @@
         <div class="row">
           <div class="col-md-6">
             <div class="content">
-              <h1>Apa itu Eco Change & kenapa ini penting?</h1>
+              <h1>Apa itu EcoChange & kenapa ini penting?</h1>
               <p>
                 Mengusung visi sebagai one-stop-solution platform dan payung
                 informasi mengenai gaya hidup minim sampah di nusantara, Eco
@@ -202,15 +234,15 @@
               <h6>Platform Eco Change memiliki 3 tujuan sebagai sarana:</h6>
               <div class="icons">
                 <div class="icon">
-                  <img src="Img/info.png" alt="Icon Informasi" />
+                  <i class="fi fi-ss-info"></i>
                   <p>Informasi</p>
                 </div>
                 <div class="icon">
-                  <img src="Img/open-book.png" alt="Icon Edukasi" />
+                  <i class="fi fi-rs-book-open-cover"></i>
                   <p>Edukasi</p>
                 </div>
                 <div class="icon">
-                  <img src="Img/handshake.png" alt="Icon Kolaborasi" />
+                  <i class="fi fi-sr-handshake"></i>
                   <p>Kolaborasi</p>
                 </div>
               </div>
@@ -219,35 +251,17 @@
           </div>
           <div class="col-md-6">
             <div class="image">
-              <img src="Img/image-4-3-copy-2.png" alt="Gambar Eco Change" />
+              <img
+                src="./images/Gambar EcoChange Kenapa Penting.png"
+                alt="Gambar Eco Change"
+                width="100%"
+              />
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- about section ends -->
-
-    <!-- our partner section start -->
-    <section class="our-partners">
-      <div class="container">
-        <h2>Our Partners</h2>
-        <div class="partners">
-          <div class="partner">
-            <img src="Img/skilvul.png" alt="Partner 1" />
-          </div>
-          <div class="partner">
-            <img src="Img/youtube.png" alt="Partner 2" />
-          </div>
-          <div class="partner">
-            <img src="Img/google.png" alt="Partner 3" />
-          </div>
-          <div class="partner">
-            <img src="Img/logo.png" alt="Partner 4" />
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- our partner section ends -->
 
     <!-- article section start -->
     <section class="article-section">
@@ -257,7 +271,7 @@
           <div class="col">
             <div class="card">
               <img
-                src="Img/unsplash-ftcqpjpffs4.png"
+                src="./images/beranda/artikel_beranda_1.png"
                 class="card-img-top"
                 alt="..."
               />
@@ -275,25 +289,7 @@
           <div class="col">
             <div class="card">
               <img
-                src="Img/unsplash-ftcqpjpffs4.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">
-                  Dimana Bisa beli Produk SecondHand Murah Berkualitas?
-                </h5>
-                <p class="card-text">
-                  Semakin hari, produk second hand semakin digemari dan dicari.
-                  Hal tersebut bukan tanpa alasan, karena. . .
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img
-                src="Img/unsplash-ftcqpjpffs4.png"
+                src="./images/beranda/artikel_beranda_3.png"
                 class="card-img-top"
                 alt="..."
               />
@@ -303,7 +299,25 @@
                 </h5>
                 <p class="card-text">
                   Temukan cara baru untuk hidup lebih berkelanjutan dengan
-                  prinsip-prinsip eco change. Pelajari disini!.
+                  prinsip-prinsip eco change. Pelajari disini!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="./images/beranda/artikel_beranda_4.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Dimana Bisa beli Produk SecondHand Murah Berkualitas?
+                </h5>
+                <p class="card-text">
+                  Semakin hari, produk second hand semakin digemari dan dicari.
+                  Hal tersebut bukan tanpa alasan, karena. .
                 </p>
               </div>
             </div>
@@ -313,7 +327,25 @@
           <div class="col">
             <div class="card">
               <img
-                src="Img/unsplash-ftcqpjpffs4.png"
+                src="./images/beranda/artikel_beranda_5.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  5 Podcast Bertema Eco Change Ini Bisa Bikin Kita Tambah. . .
+                </h5>
+                <p class="card-text">
+                  Podcast merupakan salah satu media belajar yang menyenangkan,
+                  berisi hasil rekaman yang dapat didengar. . .
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="./images/beranda/artikel_beranda_6.png"
                 class="card-img-top"
                 alt="..."
               />
@@ -331,35 +363,17 @@
           <div class="col">
             <div class="card">
               <img
-                src="Img/unsplash-ftcqpjpffs4.png"
+                src="./images/beranda/artikel_beranda_7.png"
                 class="card-img-top"
                 alt="..."
               />
               <div class="card-body">
                 <h5 class="card-title">
-                  Tips Memilih Skincare Ramah Lingkungan Ala Maurilla Imron
+                  Penting! Ini tips Eco Change Camping yang Perlu Diketahui..
                 </h5>
                 <p class="card-text">
-                  Banyak yang belum tahu kalau gaya hidup minimalis sebenarnya
-                  bisa diterapkan di skincare. Zaman sekar...
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img
-                src="Img/unsplash-ftcqpjpffs4.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">
-                  Tips Memilih Skincare Ramah Lingkungan Ala Maurilla Imron
-                </h5>
-                <p class="card-text">
-                  Banyak yang belum tahu kalau gaya hidup minimalis sebenarnya
-                  bisa diterapkan di skincare. Zaman sekar...
+                  Apa itu Eco Change Camping? SIngkatnya, ini merupakan cara
+                  kemah tanpa sampah. Melakukan ca..
                 </p>
               </div>
             </div>
