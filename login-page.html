@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Masuk</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="navbar bg-body-tertiary">
+    <nav class="navbar">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img
@@ -26,7 +26,7 @@
     </nav>
 
     <form>
-      <h5>Masuk ke Akun</h5>
+      <h5 class="text-center">Masuk ke Akun</h5>
       <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">Alamat email:</label>
         <input
@@ -48,8 +48,14 @@
       <div class="mb-3 form-check">
         <label for="forgotPassword">Lupa password?</label>
       </div>
-      <button type="submit" class="btn btn-primary">Masuk</button>
-      <button type="submit" class="btn btn-secondary">Buat Akun Baru</button>
+      <a href="index.html"
+        ><button class="btn btn-primary" type="button">Masuk</button></a
+      >
+      <a href="register-page.html"
+        ><button class="btn btn-secondary" type="button">
+          Buat Akun Baru
+        </button></a
+      >
     </form>
 
     <script
