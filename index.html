@@ -1,11 +1,393 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beranda</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-bold-straight/css/uicons-bold-straight.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="./images/Logo EcoChange.png"
+            alt="Logo EcoChange"
+            width="20%"
+          />
+        </a>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <a href="login-page.html"
+            ><button class="btn" type="button">Masuk</button></a
+          >
+          <a href="register-page.html"
+            ><button type="button" class="btn btn-outline-secondary">
+              Daftar
+            </button></a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Beranda</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Belajar
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="workshop-page.html"
+                    >Workshop</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="serial-page.html"
+                    >Serial Edukasi</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="pelatihan-page.html"
+                    >Pelatihan Sertifikasi</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Informasi
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="artikel-page.html">Artikel</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="infografis-page.html"
+                    >Infografis</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="peta.html">Peta Minim Sampah</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about-page.html">Tentang Kami</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container text-left">
+      <div class="row">
+        <div class="col-sm-4">
+          <p>Awali tahun 2023 dengan</p>
+          <h1>30 Days</h1>
+          <h1 style="color: #55b76b">EcoChange</h1>
+          <h1>Challenge</h1>
+        </div>
+
+        <div class="col-sm-8">
+          <img
+            id="hero-pic"
+            src="./images/Gambar Landing Page EcoChange.png"
+            width="100%"
+          />
+          <button type="submit" class="btn btn-primary">Mulai Sekarang</button>
+          <button type="submit" class="btn btn-secondary">Selengkapnya</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- info section start -->
+    <section class="info-section">
+      <div class="container">
+        <h2 class="text-center">Eco Change Indonesia</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <i class="fi fi-br-info"></i>
+              <div class="card-body">
+                <h5 class="card-title">Eco Change Info</h5>
+                <p class="card-text">
+                  Informasi dan tips untuk hidup lebih minim sampah dalam
+                  kehidupan sehari-hari.
+                </p>
+                <p>
+                  <a class="link-opacity-100" href="#">Lihat Selengkapnya</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <i class="fi fi-bs-marker"></i>
+              <div class="card-body">
+                <h5 class="card-title">Peta Minim Sampah</h5>
+                <p class="card-text">
+                  Peta minim sampah menunjukkan tempat tempat yang akan membantu
+                  kamu mengurangi dan mengelolah sampah.
+                </p>
+                <p>
+                  <a class="link-opacity-100" href="#">Lihat Selengkapnya</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <i class="fi fi-bs-megaphone"></i>
+              <div class="card-body">
+                <h5 class="card-title">Program Eco Change</h5>
+                <p class="card-text">
+                  Kampanye dan kumpulan program Eco Change Indonesia dari 2023
+                  sampai sekarang.
+                </p>
+                <p>
+                  <a class="link-opacity-100" href="#">Lihat Selengkapnya</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- info section ends -->
+
+    <!-- about section start -->
+    <section class="about-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="content">
+              <h1>Apa itu EcoChange & kenapa ini penting?</h1>
+              <p>
+                Mengusung visi sebagai one-stop-solution platform dan payung
+                informasi mengenai gaya hidup minim sampah di nusantara, Eco
+                Change juga wadah berkumpulnya para individu, aktivis
+                lingkungan, komunitas, dan semua pihak yang peduli akan
+                kelestarian lingkungan hidup.
+              </p>
+              <h6>Platform Eco Change memiliki 3 tujuan sebagai sarana:</h6>
+              <div class="icons">
+                <div class="icon">
+                  <i class="fi fi-ss-info"></i>
+                  <p>Informasi</p>
+                </div>
+                <div class="icon">
+                  <i class="fi fi-rs-book-open-cover"></i>
+                  <p>Edukasi</p>
+                </div>
+                <div class="icon">
+                  <i class="fi fi-sr-handshake"></i>
+                  <p>Kolaborasi</p>
+                </div>
+              </div>
+              <p><a class="link-opacity-100" href="#">Lihat selengkapnya</a></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="image">
+              <img
+                src="./images/Gambar EcoChange Kenapa Penting.png"
+                alt="Gambar Eco Change"
+                width="100%"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about section ends -->
+
+    <!-- article section start -->
+    <section class="article-section">
+      <div class="container">
+        <h2 class="text-center">Artikel</h2>
+        <div class="row col-3 col-md-12">
+          <div class="col">
+            <div class="card">
+              <img
+                src="./images/beranda/artikel_beranda_1.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Hari Peduli Sampah Nasional, Pengingat untuk Mengasihi. . .
+                </h5>
+                <p class="card-text">
+                  Yuk, ramaikan peringatan Hari Peduli Sampah Nasional (HPSN)
+                  dengan cara berkontribusi dalam....
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="./images/beranda/artikel_beranda_3.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Eco Change Dari Sudut Pandang Agama Islam
+                </h5>
+                <p class="card-text">
+                  Temukan cara baru untuk hidup lebih berkelanjutan dengan
+                  prinsip-prinsip eco change. Pelajari disini!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="./images/beranda/artikel_beranda_4.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Dimana Bisa beli Produk SecondHand Murah Berkualitas?
+                </h5>
+                <p class="card-text">
+                  Semakin hari, produk second hand semakin digemari dan dicari.
+                  Hal tersebut bukan tanpa alasan, karena. .
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row col-3 col-md-12">
+          <div class="col">
+            <div class="card">
+              <img
+                src="./images/beranda/artikel_beranda_5.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  5 Podcast Bertema Eco Change Ini Bisa Bikin Kita Tambah. . .
+                </h5>
+                <p class="card-text">
+                  Podcast merupakan salah satu media belajar yang menyenangkan,
+                  berisi hasil rekaman yang dapat didengar. . .
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="./images/beranda/artikel_beranda_6.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Tips Memilih Skincare Ramah Lingkungan Ala Maurilla Imron
+                </h5>
+                <p class="card-text">
+                  Banyak yang belum tahu kalau gaya hidup minimalis sebenarnya
+                  bisa diterapkan di skincare. Zaman sekar...
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="./images/beranda/artikel_beranda_7.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Penting! Ini tips Eco Change Camping yang Perlu Diketahui..
+                </h5>
+                <p class="card-text">
+                  Apa itu Eco Change Camping? SIngkatnya, ini merupakan cara
+                  kemah tanpa sampah. Melakukan ca..
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- article section ends -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
 </html>
